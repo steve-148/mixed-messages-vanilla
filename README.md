@@ -47,11 +47,7 @@ Possible extensions to the project could be:
 - CSS
 
 ### Setup
-To run this script, copy it locally and run using Node.js from your CLI.
-```
-$ node scriptExtended.js
-```
-There are two scripts, scriptBasic.js which fulfills the project requirements and scriptExtended.js which implements the extensions detailed at the end of the project description.
+To run open index.html in a browser.
 
 ### Status
 Project completed including the players' comment extension and the web app extension. To do is the user team input.
