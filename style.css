@@ -26,22 +26,22 @@ span {
 
 th {
   text-align: right;
+  vertical-align: top;
 }
 
 td {
   text-align: left;
   padding-left: 1rem;
-  vertical-align: bottom;
+  vertical-align: top;
 }
 
 table {
   margin: 2rem;
 }
 
-#space {
-  line-height: 2rem;
+#spacer {
+  color: antiquewhite;
 }
-
 
 #poke {
   position: absolute;
