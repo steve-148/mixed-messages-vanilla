@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Gitcombe Village Cricket Club</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Nunito"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header><h1>Gitcombe Village Cricket Club</h1></header>
+    <p>
+      The captain of Gitcombe Village Cricket Club 1st XI is Hugo Swigalot. He
+      is the most lackadaisical captain in the history of the club, largely due
+      to his gluttonous consumption of Bateman's Triple XB and Lamb's Navy Rum.
+      However, the club boasts excellent playing facilities and the finest teas
+      in all of the midlands, so is never short of willing and able players.
+      Despite Gitcombe's squad of talented individuals they are frequently found
+      languishing at the bottom of the league table because their captain is
+      rarely compos mentis. So booze-addled is Hugo's mind that to the casual
+      observer his capataincy decisions appear to be totally random.
+    </p>
+
+    <div>
+      <h2>
+        Hugo's team for today's match
+        <span>(click on a player to see Hugo's instructions)</span>
+      </h2>
+      <button id="p1"></button>
+      <button id="p2"></button>
+      <button id="p3"></button>
+      <button id="p4"></button>
+      <button id="p5"></button>
+      <button id="p6"></button>
+      <button id="p7"></button>
+      <button id="p8"></button>
+      <button id="p9"></button>
+      <button id="p10"></button>
+      <button id="p11"></button>
+      <table>
+        <tr>
+          <th scope="row">Player name:</th>
+          <td id="name"></td>
+        </tr>
+        <tr>
+          <th scope="row">Batting:</th>
+          <td id="bat"></td>
+        </tr>
+        <tr>
+          <th scope="row">Bowling:</th>
+          <td id="bowl"></td>
+        </tr>
+        <tr>
+          <th scope="row">Fielding:</th>
+          <td id="field"></td>
+        </tr>
+        <tr>
+          <th scope="row">Recommended training:</th>
+          <td id="train"></td>
+        </tr>
+        <tr id="space">
+          <th scope="row">Player's comments:</th>
+          <td id="comment"></td>
+        </tr>
+      </table>
+    </div>
+    <h2>Hugo's field for ball one of today's match</h2>
+    <p>The opening bowler <svg width="10" height="10">
+      <circle cx="5" cy="5" r="5" fill="blue" />
+    </svg> is <span id="open"></span></p>
+    <div class="container">
+      <canvas id="pitch" height="800" width="800"> </canvas>
+      <button id="poke" onClick="window.location.reload(false)">
+        Poke Hugo
+      </button>
+    </div>
+    <script src="draw.js"></script>
+  </body>
+</html>
