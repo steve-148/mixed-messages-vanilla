@@ -43,8 +43,8 @@ Possible extensions to the project could be:
 
 ### Technologies
 - JavaScript
-- Node.js 14.16.0
-- Git 2.33.1
+- HTML
+- CSS
 
 ### Setup
 To run this script, copy it locally and run using Node.js from your CLI.
