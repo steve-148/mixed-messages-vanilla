@@ -26,7 +26,7 @@
     2. Output a random message consisting of at least three pieces of information.
 
 ### Project Description
-The captain of Gitcombe Village Cricket Club 1st XI is Hugo Swigalot. He is the most lackadaisical captain in the history of the club, largely due to his gluttonous consumption of Bateman's Triple XB and Lamb's Navy Rum. However, the club boasts excellent playing facilities and the finest teas in all of the midlands, so is never short of willing and able players. Despite Gitcombe's squad of talented individuals they are frequently found languishing at the bottom of the league table because their captain is rarely compos mentis. So booze-addled is Hugo's mind that to the casual observer his capataincy decisions appear to be totally random.
+The captain of Blimpton Cricket Club 1st XI is Hugo Swigalot. He is the most lackadaisical captain in the history of the club, largely due to his gluttonous consumption of Bateman's Triple XB and Lamb's Navy Rum. However, the club boasts excellent playing facilities and the finest teas in all of the midlands, so is never short of willing and able players. Despite Blimpton's squad of talented individuals they are frequently found languishing at the bottom of the league table because their captain is rarely compos mentis. So booze-addled is Hugo's mind that to the casual observer his capataincy decisions appear to be totally random.
 
 This program aims to simulate his method of allocating roles to his players.
 
